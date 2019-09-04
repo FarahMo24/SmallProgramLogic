@@ -15,7 +15,6 @@ public class PhoneBook{
   }
   
   public String searchNumber(String name){
-
         for(Person p: contacts){
             if(p.getName().equals(name)){
                 return p.getNum();
